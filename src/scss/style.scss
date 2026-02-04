@@ -1,0 +1,20 @@
+@use 'variables' as *;
+@use 'reset';
+@use 'typography';
+@use 'layout';
+@use 'components/header';
+@use 'components/hero';
+@use 'components/about';
+@use 'components/gallery';
+@use 'components/footer';
+
+body {
+    background-color: $bg-color;
+    color: $text-color;
+    font-family: $font-primary;
+    overflow-x: hidden;
+}
+
+#app {
+    width: 100%;
+}

@@ -1,0 +1,59 @@
+@use '../variables' as *;
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    padding: $spacing-sm $spacing-md;
+    background: linear-gradient(180deg, rgba(15, 15, 15, 0.9) 0%, rgba(15, 15, 15, 0) 100%);
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+
+    &.scrolled {
+        background: rgba(15, 15, 15, 0.95);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        padding: $spacing-sm $spacing-md;
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        ul {
+            display: flex;
+            gap: $spacing-md;
+
+            li {
+                a {
+                    font-family: $font-primary;
+                    font-size: 0.9rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    color: $text-muted;
+                    transition: color 0.3s ease;
+
+                    &:hover,
+                    &.active {
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+
+    // Mobile menu optimization
+    @media (max-width: $tablet) {
+        padding: $spacing-sm;
+
+        &__nav ul {
+            gap: $spacing-sm;
+
+            li a {
+                font-size: 0.8rem;
+            }
+        }
+    }
+}

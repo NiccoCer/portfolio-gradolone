@@ -5,11 +5,11 @@ export const content = {
     hero: {
         title: "FRANCESCO GRADOLONE",
         subtitle: "Portfolio",
-        image: "/images/hero.png" // Percorso immagine sfondo hero
+        image: "/images/hero.png"
     },
     about: {
         title: "CHI SONO",
-        image: "/images/profile.png", // Immagine profilo
+        image: "/images/GRADO.jpg",
         description: "Sono un renderista architettonico di Mendicino (CS), classe 2003. Studio Ingegneria Edile-Architettura presso l’Università della Calabria. Mi occupo di visualizzazione architettonica, realizzando render per progetti accademici e lavori su commissione. In questo portfolio sono raccolti alcuni dei miei lavori.",
         email: "gradolonef@gmail.com",
         phone: "+39 351 810 5419"

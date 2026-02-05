@@ -1,6 +1,3 @@
-// Questo file contiene tutto il contenuto del sito.
-// Modifica semplicemente i testi tra virgolette per aggiornare il sito.
-
 export const content = {
     hero: {
         title: "FRANCESCO GRADOLONE",
@@ -18,7 +15,7 @@ export const content = {
         {
             title: "Render 1",
             category: "Interior Design",
-            image: "/images/render1.jpg"
+            image: "/images/render1.jpg" //riutilizzata in header
         },
         {
             title: "Residenza Tramonto",
@@ -31,10 +28,21 @@ export const content = {
             image: "/images/gallery3.png"
         },
         {
-            title: "Museo del Cemento",
+            title: "Render 2",
             category: "Concept",
-            image: "/images/hero.png" // Riutilizzo placeholder
+            image: "/images/hero.png"
+        },
+        {
+            title: "Render 2",
+            category: "Concept",
+            image: "/images/hero.png"
+        },
+        {
+            title: "Render 2",
+            category: "Concept",
+            image: "/images/hero.png"
         }
+
     ],
     footer: {
         text: "© 2026 Francesco Gradolone. All rights reserved."

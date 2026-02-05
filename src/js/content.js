@@ -5,7 +5,7 @@ export const content = {
     hero: {
         title: "FRANCESCO GRADOLONE",
         subtitle: "Portfolio",
-        image: "/images/hero.png"
+        image: "/images/render1.jpg"
     },
     about: {
         title: "CHI SONO",
@@ -16,9 +16,9 @@ export const content = {
     },
     gallery: [
         {
-            title: "Villa nel Bosco",
+            title: "Render 1",
             category: "Interior Design",
-            image: "/images/gallery1.png"
+            image: "/images/render1.jpg"
         },
         {
             title: "Residenza Tramonto",

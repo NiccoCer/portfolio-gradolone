@@ -28,3 +28,6 @@ p {
     font-weight: 300;
     color: $text-muted;
 }
+@media (max-width: 768px) {
+  p{padding: 10% 25px;}
+}

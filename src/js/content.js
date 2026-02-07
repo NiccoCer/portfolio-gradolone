@@ -2,7 +2,7 @@ export const content = {
     hero: {
         title: "FRANCESCO GRADOLONE",
         subtitle: "Portfolio",
-        image: "/images/render1.jpg"
+        image: "/images/5.jpeg"
     },
     about: {
         title: "CHI SONO",

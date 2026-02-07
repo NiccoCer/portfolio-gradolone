@@ -25,7 +25,7 @@ export const content = {
         {
             title: "Soggiorno luminoso",
             category: "Interior Design",
-            image: "/images/5.jpg"
+            image: "/images/6.jpg"
         },
         {
             title: "Render 2",

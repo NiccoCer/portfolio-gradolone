@@ -13,14 +13,14 @@ export const content = {
     },
     gallery: [
         {
-            title: "Render 1",
+            title: "Stanza confortevole",
             category: "Interior Design",
             image: "/images/render1.jpg" //riutilizzata in header
         },
         {
-            title: "Residenza Tramonto",
+            title: "Villa nel Bosco",
             category: "Exterior",
-            image: "/images/gallery2.png"
+            image: "/images/5.jpeg"
         },
         {
             title: "Dettagli Materici",

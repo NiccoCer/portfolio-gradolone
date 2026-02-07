@@ -23,9 +23,9 @@ export const content = {
             image: "/images/5.jpeg"
         },
         {
-            title: "Dettagli Materici",
-            category: "Photography",
-            image: "/images/gallery3.png"
+            title: "Soggiorno luminoso",
+            category: "Interior Design",
+            image: "/images/5.jpg"
         },
         {
             title: "Render 2",

@@ -10,4 +10,63 @@
         font-size: 0.9rem;
         color: $text-muted;
     }
+    img{
+        width: 50px;
+        height: 50px;
+        margin-left: 48%;
+        margin-bottom: 10px;
+    }
+    @media (max-width: 768px) {
+      img{
+        width: 100px;
+        height: 100px;
+        margin-left: 36%;
+      }
+    }
+
+    &__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        ul {
+            display: flex;
+            gap: $spacing-md;
+
+            li {
+                a {
+                    font-family: $font-primary;
+                    font-size: 0.9rem;
+                    text-transform: uppercase;
+                    letter-spacing: 0.1em;
+                    color: $text-muted;
+                    transition: color 0.3s ease;
+
+                    &:hover,
+                    &.active {
+                        color: $accent-color;
+                    }
+                }
+            }
+        }
+    }
+
+    // Mobile menu optimization
+    @media (max-width: $tablet) {
+        padding: $spacing-sm;
+
+        &__nav ul {
+            margin-top: 20px;
+            gap: $spacing-sm;
+
+            li a {
+                font-size: 0.8rem;
+            }
+        }
+        p{
+            margin-top: 0px;
+        }
+    }
 }

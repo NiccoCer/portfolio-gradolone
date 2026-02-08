@@ -69,6 +69,12 @@ app.innerHTML = `
     </section>
 
     <footer class="footer">
+        <a href="#hero" class="button"><img src="/images/logo.png" alt="Logo FG"></a>
+        <nav class="footer__nav">
+        <ul>
+            ${content.nav ? content.nav.map(link => `<li><a href="${link.link}">${link.label}</a></li>`).join('') : ''}
+        </ul>
+        </nav>
       <p>${content.footer.text}</p>
     </footer>
     
@@ -77,7 +83,7 @@ app.innerHTML = `
         <button class="lightbox__prev">&lt;</button>
         <div class="lightbox__content">
             <button class="lightbox__close">&times;</button>
-            <img src="" alt="Full size image">
+            
         </div>
         <button class="lightbox__next">&gt;</button>
     </div>

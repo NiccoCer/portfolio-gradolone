@@ -28,7 +28,7 @@ export const content = {
             image: "/images/6.jpg"
         },
         {
-            title: "Render 2",
+            title: "Palestra luminosa",
             category: "Concept",
             image: "/images/render2.png"
         },

@@ -37,16 +37,7 @@ export const content = {
             category: "Concept",
             image: "/images/render2.png"
         },
-        {
-            title: "Render 2",
-            category: "Concept",
-            image: "/images/hero.png"
-        },
-        {
-            title: "Render 2",
-            category: "Concept",
-            image: "/images/hero.png"
-        }
+
 
     ],
     footer: {

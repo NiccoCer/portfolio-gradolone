@@ -2,7 +2,12 @@ export const content = {
     hero: {
         title: "FRANCESCO GRADOLONE",
         subtitle: "Portfolio",
-        image: "/images/5.jpeg"
+        images: [
+            "/images/5.jpeg",
+            "/images/render1.jpg",
+            "/images/6.jpg",
+            "/images/render2.png"
+        ]
     },
     about: {
         title: "CHI SONO",

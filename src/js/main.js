@@ -21,7 +21,7 @@ app.innerHTML = `
   <main>
     <section id="hero" class="hero">
       <div class="hero__background">
-        <img src="${content.hero.image}" alt="Hero Image">
+        ${content.hero.images.map((img, index) => `<img src="${img}" alt="Hero Image ${index + 1}" class="${index === 0 ? 'active' : ''}">`).join('')}
       </div>
       <div class="hero__content">
         <h1 class="hero__title">${content.hero.title}</h1>
@@ -120,8 +120,18 @@ tl.to('.hero__content', { opacity: 1, duration: 1 })
   .to('.hero__title', { y: 0, opacity: 1 }, 0.2)
   .to('.hero__subtitle', { y: 0, opacity: 1 }, 0.4)
   .to('.scroll-indicator', { opacity: 0.7, y: 0, duration: 1 }, 1)
-  .from('.hero__background img', { scale: 1.2, duration: 2, ease: 'power2.out' }, 0)
+  .from('.hero__background', { scale: 1.1, duration: 2, ease: 'power2.out' }, 0)
 
+// Hero Background Slider
+const heroImages = document.querySelectorAll('.hero__background img');
+if (heroImages.length > 1) {
+  let currentHeroIdx = 0;
+  setInterval(() => {
+    heroImages[currentHeroIdx].classList.remove('active');
+    currentHeroIdx = (currentHeroIdx + 1) % heroImages.length;
+    heroImages[currentHeroIdx].classList.add('active');
+  }, 4000); // Change image every 4 seconds
+}
 
 // About Animation
 gsap.from('.about__inner', {

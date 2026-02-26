@@ -30,7 +30,7 @@ export const content = {
         {
             title: "Render 2",
             category: "Concept",
-            image: "/images/hero.png"
+            image: "/images/render2.png"
         },
         {
             title: "Render 2",

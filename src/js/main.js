@@ -83,7 +83,7 @@ app.innerHTML = `
         <button class="lightbox__prev">&lt;</button>
         <div class="lightbox__content">
             <button class="lightbox__close">&times;</button>
-            
+            <img src="" alt="Enlarged Photo">
         </div>
         <button class="lightbox__next">&gt;</button>
     </div>

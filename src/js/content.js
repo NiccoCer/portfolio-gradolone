@@ -5,7 +5,7 @@ export const content = {
         images: [
             "/images/5.jpeg",
             "/images/render1.jpg",
-            "/images/6.jpg",
+            "/images/6.png",
             "/images/render2.png"
         ]
     },
@@ -30,7 +30,7 @@ export const content = {
         {
             title: "Soggiorno luminoso",
             category: "Interior Design",
-            image: "/images/6.jpg"
+            image: "/images/6.png"
         },
         {
             title: "Palestra luminosa",

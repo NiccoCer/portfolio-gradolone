@@ -130,7 +130,7 @@ if (heroImages.length > 1) {
     heroImages[currentHeroIdx].classList.remove('active');
     currentHeroIdx = (currentHeroIdx + 1) % heroImages.length;
     heroImages[currentHeroIdx].classList.add('active');
-  }, 4000); // Change image every 4 seconds
+  }, 2000); // Change image every 2 seconds
 }
 
 // About Animation

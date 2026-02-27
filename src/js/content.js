@@ -42,6 +42,11 @@ export const content = {
             category: "Exterior",
             image: "/images/9.png"
         },
+        {
+            title: "Uffici",
+            category: "Exterior",
+            image: "/images/10.png"
+        },
 
 
     ],

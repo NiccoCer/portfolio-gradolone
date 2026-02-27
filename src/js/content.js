@@ -6,7 +6,9 @@ export const content = {
             "/images/5.jpeg",
             "/images/render1.jpg",
             "/images/6.png",
-            "/images/render2.png"
+            "/images/render2.png",
+            "/images/9.png",
+            "/images/10.png"
         ]
     },
     about: {

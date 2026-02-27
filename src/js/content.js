@@ -46,7 +46,7 @@ export const content = {
         },
         {
             title: "Uffici",
-            category: "Exterior",
+            category: "Interior Design",
             image: "/images/10.png"
         },
 

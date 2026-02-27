@@ -37,6 +37,11 @@ export const content = {
             category: "Concept",
             image: "/images/render2.png"
         },
+        {
+            title: "Capannone",
+            category: "Exterior",
+            image: "/images/9.png"
+        },
 
 
     ],

@@ -52,19 +52,27 @@ app.innerHTML = `
 
     <section id="gallery" class="container">
       <div class="gallery">
-        <div class="gallery__grid">
-          ${content.gallery.map(item => `
-            <article class="gallery__item">
-              <div class="gallery__image-wrapper">
-                  <img src="${item.image}" alt="${item.title}">
+        ${(() => {
+    const categories = [...new Set(content.gallery.map(item => item.category))];
+    return categories.map(category => `
+            <div class="gallery__category-section">
+              <h2 class="gallery__category-title">${category}</h2>
+              <div class="gallery__grid">
+                ${content.gallery.filter(item => item.category === category).map(item => `
+                  <article class="gallery__item">
+                    <div class="gallery__image-wrapper">
+                        <img src="${item.image}" alt="${item.title}">
+                    </div>
+                    <div class="gallery__info">
+                      <h3>${item.title}</h3>
+                      <p>${item.category}</p>
+                    </div>
+                  </article>
+                `).join('')}
               </div>
-              <div class="gallery__info">
-                <h3>${item.title}</h3>
-                <p>${item.category}</p>
-              </div>
-            </article>
-          `).join('')}
-        </div>
+            </div>
+          `).join('');
+  })()}
       </div>
     </section>
 

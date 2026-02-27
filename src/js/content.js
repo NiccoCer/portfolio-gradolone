@@ -21,7 +21,7 @@ export const content = {
     gallery: [
         {
             title: "Stanza confortevole",
-            category: "Interior Design",
+            category: "Interior",
             image: "/images/render1.jpg" //riutilizzata in header
         },
         {
@@ -31,12 +31,12 @@ export const content = {
         },
         {
             title: "Soggiorno luminoso",
-            category: "Interior Design",
+            category: "Interior",
             image: "/images/6.png"
         },
         {
             title: "Palestra luminosa",
-            category: "Concept",
+            category: "Interior",
             image: "/images/render2.png"
         },
         {
@@ -46,7 +46,7 @@ export const content = {
         },
         {
             title: "Uffici",
-            category: "Interior Design",
+            category: "Interior",
             image: "/images/10.png"
         },
 

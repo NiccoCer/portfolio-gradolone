@@ -8,7 +8,12 @@ export const content = {
             "/images/6.png",
             "/images/render2.png",
             "/images/9.png",
+<<<<<<< HEAD
             "/images/10.png"
+=======
+            "/images/10.png",
+            "/images/11.png"
+>>>>>>> 3f085db (foto4)
         ]
     },
     about: {
@@ -22,7 +27,11 @@ export const content = {
         {
             title: "Stanza confortevole",
             category: "Interior",
+<<<<<<< HEAD
             image: "/images/render1.jpg" //riutilizzata in header
+=======
+            image: "/images/render1.jpg"
+>>>>>>> 3f085db (foto4)
         },
         {
             title: "Villa nel Bosco",
@@ -49,6 +58,14 @@ export const content = {
             category: "Interior",
             image: "/images/10.png"
         },
+<<<<<<< HEAD
+=======
+        {
+            title: "Uffici",
+            category: "Interior",
+            image: "/images/11.png"
+        },
+>>>>>>> 3f085db (foto4)
 
 
     ],

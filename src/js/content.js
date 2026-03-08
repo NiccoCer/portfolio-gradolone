@@ -61,8 +61,8 @@ export const content = {
 <<<<<<< HEAD
 =======
         {
-            title: "Uffici",
-            category: "Interior",
+            title: "Casa in montagna",
+            category: "Exterior",
             image: "/images/11.png"
         },
 >>>>>>> 3f085db (foto4)

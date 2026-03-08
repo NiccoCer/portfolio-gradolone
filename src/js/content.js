@@ -8,7 +8,6 @@ export const content = {
             "/images/6.png",
             "/images/render2.png",
             "/images/9.png",
-            "/images/10.png"
             "/images/10.png",
             "/images/11.png"
         ]
